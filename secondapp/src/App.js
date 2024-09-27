@@ -9,7 +9,7 @@ function App() {
   }
     function second(sec){
       console.log(sec," Button clicked");
-    }5
+    }
   return (
     <>
       <h1 style={{backgroundColor:"yellow", color:"red"}}>App component</h1>
