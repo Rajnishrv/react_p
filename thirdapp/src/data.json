@@ -1,0 +1,34 @@
+{
+    "item": [
+        {
+            "id": "001",
+            "name": "iphone 6",
+            "image": "",
+            "prise":"5000"
+        },
+        {
+            "id": "001",
+            "name": "iphone 7",
+            "image": "",
+            "prise":"5"
+        },
+        {
+            "id": "001",
+            "name": "iphone 8",
+            "image": "",
+            "prise":"656"
+        },
+        {
+            "id": "001",
+            "name": "iphone 9",
+            "image": "",
+            "prise":"655"
+        },
+        {
+            "id": "001",
+            "name": "iphone 10",
+            "image": "",
+            "prise":"65"
+        }
+    ]
+}
