@@ -2,33 +2,33 @@
     "item": [
         {
             "id": "001",
-            "name": "iphone 6",
-            "image": "",
-            "prise":"5000"
+            "name": "iphone 16",
+            "image": "https://m.media-amazon.com/images/I/615O-NFQKdL._SX679_.jpg",
+            "price":"5000"
         },
         {
-            "id": "001",
-            "name": "iphone 7",
-            "image": "",
-            "prise":"5"
+            "id": "003",
+            "name": "iphone 14",
+            "image": "https://m.media-amazon.com/images/I/618Bb+QzCmL._AC_UL480_FMwebp_QL65_.jpg",
+            "price":"5555"
         },
         {
-            "id": "001",
-            "name": "iphone 8",
-            "image": "",
-            "prise":"656"
+            "id": "002",
+            "name": "iphone 15",
+            "image": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_UY327_FMwebp_QL65_.jpg",
+            "price":"656"
         },
         {
-            "id": "001",
-            "name": "iphone 9",
-            "image": "",
-            "prise":"655"
+            "id": "004",
+            "name": "iphone 13",
+            "image": "https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_UY327_FMwebp_QL65_.jpg",
+            "price":"655"
         },
         {
-            "id": "001",
-            "name": "iphone 10",
-            "image": "",
-            "prise":"65"
+            "id": "005",
+            "name": "iphone 12",
+            "image": "https://m.media-amazon.com/images/I/711wsjBtWeL._AC_UY327_FMwebp_QL65_.jpg",
+            "price":"6500"
         }
     ]
 }

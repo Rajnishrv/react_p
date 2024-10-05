@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-
+import './Apps.css';
 function App() {
   let [item, setItem] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
-      let data = await fetch("http://localhost:250/item");
+      let data = await fetch("http://localhost:3000/item");
       let res = await data.json();
       setItem(res)
     }
@@ -15,7 +15,20 @@ function App() {
 
   return (
     <div className="App">
-      <h1>prise</h1>
+    {
+      item.map((ele)=>{
+        return <div>
+          <div className='products'>
+          
+          id : {ele.id}
+          name : {ele.name}
+          price : {ele.price}
+          <img src={ele.image}></img>
+          
+          </div>
+        </div>
+      })
+    }
     </div>
   );
 }
