@@ -1,0 +1,36 @@
+.admin-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  
+}
+.admin-login{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 450px;
+    height: 250px;
+    padding: 8px;
+    background-color: rgba(186, 183, 183, 0.546);
+}
+table tr, table input{
+    font-size: 1.2rem;
+    margin: 5px;
+}
+table tr button{
+    font-size: 1.2rem;
+    display: block;
+    background-color: green;
+    border-radius: 5px;
+    width: 120px;
+    padding: 5px;
+}
+table .button{
+    width: 100%;
+    display: flex;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120%;
+}
