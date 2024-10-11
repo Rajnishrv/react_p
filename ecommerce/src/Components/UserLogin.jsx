@@ -15,7 +15,7 @@ function UserLogin() {
 
     return (
         <div className="admin-container">
-                        <div className="admin-login">
+            <div className="admin-login">
                 <form action="">
                     <table>
                         <tr><td><u><h3>User Login</h3></u></td></tr>
@@ -28,7 +28,6 @@ function UserLogin() {
                             <td><input type="text" value={password} onChange={(e) => { setPssword(e.target.value) }} placeholder="Enter the password" required /></td>
                         </tr>
                         <tr className="button"><button onClick={login}>Login</button></tr>
-
                     </table>
                 </form>
             </div>

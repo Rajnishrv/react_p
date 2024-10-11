@@ -1,0 +1,16 @@
+{
+    "Admin":[
+        {
+            "id": 1,
+            "email" :"abcd@gmail.com",
+            "password": "1234567890",
+            "phone" : "ABC"
+        },
+        {
+            "id": 2,
+            "email" :"XYZ@gmail.com",
+            "password": "1232567890",
+            "phone" : "XYZ"
+        }
+    ]
+}
