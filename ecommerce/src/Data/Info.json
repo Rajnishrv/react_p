@@ -1,16 +1,76 @@
 {
-    "Admin":[
-        {
-            "id": 1,
-            "email" :"abcd@gmail.com",
-            "password": "1234567890",
-            "phone" : "ABC"
-        },
-        {
-            "id": 2,
-            "email" :"XYZ@gmail.com",
-            "password": "1232567890",
-            "phone" : "XYZ"
-        }
-    ]
+  "Admin": [
+    {
+      "id": "1",
+      "email": "abcd@gmail.com",
+      "password": "1234567890",
+      "phone": "ABC"
+    },
+    {
+      "id": "2",
+      "email": "c",
+      "password": "1232567890",
+      "phone": "XYZ"
+    },
+    {
+      "id": "3768",
+      "name": "",
+      "password": "abc123",
+      "phone": "",
+      "email": "rajnishkumar550443@gmail.com"
+    },
+    {
+      "id": "a8d5",
+      "name": "RAJNEESH KUMAR",
+      "password": "abc123",
+      "phone": "9135233163",
+      "email": "rajnishkumar550443@gmail.com"
+    },
+    {
+      "id": "80cd",
+      "name": "RAJNEESH KUMAR",
+      "password": "abc123",
+      "phone": "9135233163",
+      "email": "rajnishkumar550443@gmail.com"
+    },
+    {
+      "id": "5ce6",
+      "name": "55045-F K G K PROJECT GIRLS H S SISWA PATNA, EAST CHAMPARAN",
+      "password": "abc123",
+      "phone": "8521646240",
+      "email": "rajnishkumar550443@gmail.com"
+    },
+    {
+      "id": "d251",
+      "name": "55045-F K G K PROJECT GIRLS H S SISWA PATNA, EAST CHAMPARAN",
+      "password": "abc123",
+      "phone": "8521646240",
+      "email": "rajnishkumar550443@gmail.com"
+    },
+    {
+      "id": "a59a",
+      "name": "RAJNEESH KUMAR",
+      "password": "jhk",
+      "phone": "9135233163",
+      "email": "rajnishkumar550443@gmail.com"
+    },
+    {
+      "id": "bc3b",
+      "name": "RAJNEESH KUMAR",
+      "password": "abc123",
+      "phone": "9135233163",
+      "email": "rajnishkumar550443@gmail.com"
+    }
+  ],
+
+  
+  "User":[
+    {
+      "id": "a8d5",
+      "name": "RAJNEESH KUMAR",
+      "password": "abc123",
+      "phone": "9135233163",
+      "email": "rajnishkumar550443@gmail.com"
+    }
+  ]
 }
