@@ -5,9 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 import YouTubeIcon from '@mui/icons-material/YouTube'
 import '../Styles/AdminFooter.css'
 export default function Footer(){
-    return (
-
-        
+    return (        
         <div className="Footer">
             <div className="contact">
                 <span>Contact Us : </span><br />

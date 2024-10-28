@@ -1,0 +1,8 @@
+.Footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    padding: 20px;
+}
