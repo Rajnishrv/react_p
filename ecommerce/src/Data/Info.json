@@ -62,15 +62,33 @@
       "email": "rajnishkumar550443@gmail.com"
     }
   ],
-
-  
-  "User":[
+  "User": [
     {
       "id": "a8d5",
       "name": "RAJNEESH KUMAR",
       "password": "abc123",
       "phone": "9135233163",
       "email": "rajnishkumar550443@gmail.com"
+    }
+  ],
+  "Products": [
+    {
+      "id": "b57e",
+      "category": "Mobile",
+      "rating": "5",
+      "price": "556",
+      "name": "df",
+      "image": "df",
+      "desc": "fgfd"
+    },
+    {
+      "id": "89fa",
+      "category": "Mobile Accessories",
+      "rating": "5",
+      "price": "555555",
+      "name": "redmi",
+      "image": "kkjdk",
+      "desc": "jkdjkm"
     }
   ]
 }

@@ -4,7 +4,6 @@ import AdminAccount from './AccoutnDropdoun';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import '../Styles/AdminNavbar.css'
 
-
 export default function AdminNavbar() {
     return (
         <div className="AdminNavbar">
