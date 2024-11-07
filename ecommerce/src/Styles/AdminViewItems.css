@@ -1,0 +1,15 @@
+.card1{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.thumbnail{
+    margin: 5px;
+    width: 350px;
+}
+.thumbnail img{
+    width: 300px;
+}

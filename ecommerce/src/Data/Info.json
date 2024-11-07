@@ -60,6 +60,13 @@
       "password": "abc123",
       "phone": "9135233163",
       "email": "rajnishkumar550443@gmail.com"
+    },
+    {
+      "id": "148f",
+      "name": "RAJNEESH KUMAR",
+      "password": "raj",
+      "phone": "9135233163",
+      "email": "rajnishkumar550443@gmail.com"
     }
   ],
   "User": [
@@ -73,22 +80,85 @@
   ],
   "Products": [
     {
-      "id": "b57e",
       "category": "Mobile",
-      "rating": "5",
-      "price": "556",
-      "name": "df",
-      "image": "df",
-      "desc": "fgfd"
+      "name": "Tecno POVA 6 NEO 5 ",
+      "price": "13999",
+      "image": "https://m.media-amazon.com/images/I/61jdf4zZ9WL._AC_UY327_FMwebp_QL65_.jpg",
+      "rating": "4",
+      "desc": "Tecno POVA 6 NEO 5G (Aurora Cloud, 8GB+256GB) | Advanced AI Features | 108MP Ultra Clear AI Camera |",
+      "id": "a797"
     },
     {
-      "id": "89fa",
-      "category": "Mobile Accessories",
+      "id": "d1af",
+      "category": "Mobile",
+      "rating": "4",
+      "price": "26099",
+      "name": "Oneplus Nord CE4",
+      "image": "https://m.media-amazon.com/images/I/61g1pqSjAhL._AC_UY327_FMwebp_QL65_.jpg",
+      "desc": "Oneplus Nord CE4 (Dark Chrome, 8GB RAM, 256GB Storage)"
+    },
+    {
+      "category": "Mobile",
+      "name": "iQOO Z7 Pro 5",
+      "price": "21099",
+      "image": "https://m.media-amazon.com/images/I/61Id6WJDWqL._AC_UY327_FMwebp_QL65_.jpg",
       "rating": "5",
-      "price": "555555",
-      "name": "redmi",
-      "image": "kkjdk",
-      "desc": "jkdjkm"
+      "desc": "iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage) | 3D Curved AMOLED Display | 4nm MediaTek Dimesity",
+      "id": "e625"
+    },
+    {
+      "category": "Mobile",
+      "name": "realme NARZO 70 Pro 5",
+      "price": "16999",
+      "image": "https://m.media-amazon.com/images/I/71Qwha+BcbL._AC_UY327_FMwebp_QL65_.jpg",
+      "rating": "3",
+      "desc": "realme NARZO 70 Pro 5G (Glass Gold, 8GB RAM,256GB Storage) Dimensity 7050 5G Chipset | Horizon Glass",
+      "id": "505a"
+    },
+    {
+      "id": "4e71",
+      "category": "Dress Matierials",
+      "rating": "4",
+      "price": "899",
+      "name": "Kurta Salwar& Dupatta Set",
+      "image": "https://m.media-amazon.com/images/I/71lgGOmT5iL._SY679_.jpg",
+      "desc": "EthnicJunction Women's Embroidered Mirror Work Cotton Straight Kurta Salwar& Dupatta Set"
+    },
+    {
+      "id": "99da",
+      "category": "Dress Matierials",
+      "rating": "5",
+      "price": "859",
+      "name": "White NaLine Kurta Set With Dupattaira Cut Kurta",
+      "image": "https://m.media-amazon.com/images/I/81271aov+AL._SY550_.jpg",
+      "desc": "FIORRA Women's Maroon Poly Crepe A-Line Kurta Set With Dupatta"
+    },
+    {
+      "id": "dba9",
+      "category": "Dress Matierials",
+      "rating": "3",
+      "price": "499",
+      "name": "Aarya Designer Women Crepe",
+      "image": "https://m.media-amazon.com/images/I/81X3PXufH3L._SY550_.jpg",
+      "desc": "Aarya Designer Women Crepe Printed Collar Neck Full Lenth Gown || Stylish Gown for Girls || Full Length Gown for Women & Girls"
+    },
+    {
+      "id": "feb2",
+      "category": "Dress Matierials",
+      "rating": "4",
+      "price": "599",
+      "name": "SHAVIDR ENTERPRISE",
+      "image": "https://m.media-amazon.com/images/I/51uSFpmsubL._SY550_.jpg",
+      "desc": "\nBrand: SHAVIDR ENTERPRISE\nSHAVIDR ENTERPRISE New Designed South Indian Lehenga Choli For women And Girls-Kumkum."
+    },
+    {
+      "id": "f4f0",
+      "category": "Electroincs",
+      "rating": "3",
+      "price": "1599",
+      "name": "Sleep Headphones",
+      "image": "https://m.media-amazon.com/images/I/51mVfShY8VL._SX300_SY300_QL70_FMwebp_.jpg",
+      "desc": "Sleep Headphones Mask (Medium) with White Noise Machine Timer Microphone"
     }
   ]
 }

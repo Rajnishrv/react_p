@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import AdminLogin from "./Components/AdminLogin";
 import Landing from "./Components/Landing";
 import UserLogin from "./Components/UserLogin";
@@ -13,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <BrowserRouter>
         <Routes>
           <Route path="/*" element={<Error />} />
@@ -22,7 +23,6 @@ function App() {
           <Route path="/userlogin" element={<UserLogin />} />
           <Route path='/adminsingup' element={<AdminSignUp />} />
           <Route path='/adminhomepage/*' element={<AdminHomePage />} />
-          
         </Routes>
       </BrowserRouter>
       {/* Tost */}

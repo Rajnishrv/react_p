@@ -1,18 +1,19 @@
 import "../Styles/AdminLogin.css"
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+
 
 export default function AdminLogin() {
     let [username, setUsername] = useState("");
     let [password, setPssword] = useState("");
     let [admin, setAdmin] = useState([]);
     let navigate = useNavigate();
+
     useEffect(() => {
         async function fecthAdmin() {
             let data = await fetch('http://localhost:3000/Admin');
             let res = await data.json();
             setAdmin(res);
-            console.log(res)
         }
 
         fecthAdmin();
@@ -50,7 +51,7 @@ export default function AdminLogin() {
                         </tbody>
                     </table>
                 </form>
-                </div>
+            </div>
         </div>
     )
 }

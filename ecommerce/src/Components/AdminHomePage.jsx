@@ -12,12 +12,12 @@ export default function AdminHomePage() {
         <div className='AdminHomePage'>
             <AdminNavbar />
             <Routes>
-                <Route path="/" element={<AdminDashBord/>} />
-                <Route path='/viewproducts' element={<AdminViewItems/>}/>
-                <Route path='/addproducts' element={<AdminAddProducts/>}/>
-                <Route path='/updateproducts/:id' element={<UpdateProducts/>}/>
+                <Route path="/" element={<AdminDashBord />} />
+                <Route path='/viewproducts' element={<AdminViewItems />} />
+                <Route path='/addproducts' element={<AdminAddProducts />} />
+                <Route path='/updateproducts/:id' element={<UpdateProducts />} />
             </Routes>
-            <Footer/>
+            <Footer />
         </div>
     );
 }

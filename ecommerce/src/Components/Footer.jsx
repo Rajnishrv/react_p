@@ -4,6 +4,7 @@ import XIcon from '@mui/icons-material/X'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import YouTubeIcon from '@mui/icons-material/YouTube'
 import '../Styles/AdminFooter.css'
+
 export default function Footer(){
     return (        
         <div className="Footer">

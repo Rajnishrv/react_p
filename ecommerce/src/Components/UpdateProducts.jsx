@@ -16,7 +16,7 @@ export default function UpdateProducts() {
 
     function updateItem(e) {
         e.preventDefault();
-        axios.put(`http://localhost:3001/Product/${param.id}`, data)
+        axios.put(`http://localhost:3000/Products/${param.id}`, data)
             .then((res) => {
                 console.log(res.data);
                 toast.success("item updated successfully")
@@ -30,7 +30,7 @@ export default function UpdateProducts() {
     let param = useParams();
 
     useEffect(() => {
-        axios.get(`http://localhotst:3000/Product/${param.id}`)
+        axios.get(`http://localhost:3000/Products/${param.id}`)
             .then((res) => {
                 console.log(res.data)
                 setCategory(res.data.category);
@@ -41,12 +41,12 @@ export default function UpdateProducts() {
                 setDesc(res.data.desc);
             })
             .catch((err) => {
-                console.log(err)
+                console.log(err);
             })
     }, [])
 
     return (
-        <div className="updateproducts">
+        <div className="updateproducts addproducts">
             <form onSubmit={updateItem} action="">
                 <fieldset>
                     <label htmlFor="">
@@ -81,7 +81,7 @@ export default function UpdateProducts() {
                         Ratings :
                     </label>
                     <input type="number" required value={rating} onChange={(e) => { setRating(e.target.value) }} placeholder="Ehter the ratings" />
-                    <button className="btn btn-danger">Add item</button>
+                    <button className="btn btn-danger">Update Item</button>
                 </fieldset>
             </form>
         </div>

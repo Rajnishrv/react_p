@@ -4,14 +4,16 @@ import { toast } from "react-toastify";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever'
 import { useNavigate } from "react-router-dom";
 import EditIcon from '@mui/icons-material/Edit';
+import '../Styles/AdminViewItems.css'
 
 export default function AdminViewItems(){
 
 let[products, setProducts]=useState([]);
 let[force, setForce] = useState(0);
+
 useEffect(()=>{
     function fetchData(){
-        axios.get('http://localhost:3000/Product')
+        axios.get('http://localhost:3000/Products')
         .then((res)=>{
             console.log(res.data)
             setProducts(res.data)
@@ -29,12 +31,11 @@ function deleteProduct(id, name){
     axios.delete(`http://localhost:3000/Products/${id}`)
     .then(()=>{
         toast.success(`${name} Deleted sucessfully`)
-        setForce(force++);
+        setForce(++force);
         console.log(force);
     })
     .catch(()=>{
         toast.error("Error deleting product")
-        .error(`Data not present`)
     })
 }
 
@@ -44,7 +45,7 @@ function editPage(id){
 }
 
 return(
-    <div className="AdminViewItems">
+    <div className="viewproducts">
         {products.map((product)=>{
             return(
                 <div className="sub_items">
